@@ -6,8 +6,8 @@
 * Report: Extent 5.1.1
 
 # Framework Structure:
-Hierarchy: Base -> Base test -> PetTest
-Order of Execution: BaseTest -> ConfigLoader -> Test Class
+* Hierarchy: Base -> Base test -> PetTest
+* Order of Execution: BaseTest -> ConfigLoader -> Test Class
 
 # Packages: 
 1. apiEndpoints-> Contains all Pet Endpoints
