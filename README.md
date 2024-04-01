@@ -1,27 +1,27 @@
 # cbaAPIAssesment
 
-**Quick Overview: **
+#Quick Overview:
 Framework: Rest Assured + TestNG. 
 Language: Java
 Report: Extent
 
-**Framework Structure: **
+#Framework Structure:
 Hierarchy: Base -> Base test -> PetTest
 
-**Packages **
-apiEndpoints-> Contains all Pet Endpoints
-apiEnums-> Contains all Multiple values
-apiConstants-> Contains constants used for test/Helper class
-apihelper-> Facilitates for Test class execution
-frameworkBase-> Contains the HTTP call methods and establishes the Request/Response specs
-framework utils-> Additional customisation for Report, Retry, Config read. 
+#Packages: 
+1. apiEndpoints-> Contains all Pet Endpoints
+2. apiEnums-> Contains all Multiple values
+3. apiConstants-> Contains constants used for test/Helper class
+4. apihelper-> Facilitates for Test class execution
+5. frameworkBase-> Contains the HTTP call methods and establishes the Request/Response specs
+6. framework utils-> Additional customisation for Report, Retry, Config read. 
 
-**Customisations**
-Dual testng files, each for Regression/Smoke execution
-Retry Listener to retry failed scenarios
-Reporting to integrate Assert + Extent report write in a single method for simplicity
+#Customisations
+1. Dual testng files, each for Regression/Smoke execution
+2. Retry Listener to retry failed scenarios
+3. Reporting to integrate Assert + Extent report write in a single method for simplicity
 
-**TestRun**
+#TestRun
 1. Trigger either "testng_Regression" or "testng_smoke" XML based on the need.
 2. When running the pom.xml please use the command "mvn test -Dsurefire.suiteXmlFile=<testngXMLName>"
 3. To Trigger from CI please use Jenkins
