@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-01T15:21:38 IST" name="Suite" finished-at="2024-04-01T15:22:00 IST" duration-ms="21497">
+    <groups>
+      <group name="Regression">
+        <method signature="PetTests.Pet_Get()[pri:0, instance:apiTests.PetTests@48ae9b55]" name="Pet_Get" class="apiTests.PetTests"/>
+        <method signature="PetTests.Pet_Post()[pri:0, instance:apiTests.PetTests@48ae9b55]" name="Pet_Post" class="apiTests.PetTests"/>
+        <method signature="PetTests.Pet_Post_Image()[pri:0, instance:apiTests.PetTests@48ae9b55]" name="Pet_Post_Image" class="apiTests.PetTests"/>
+        <method signature="PetTests.Pet_Put()[pri:0, instance:apiTests.PetTests@48ae9b55]" name="Pet_Put" class="apiTests.PetTests"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="PetTests.Pet_Get()[pri:0, instance:apiTests.PetTests@48ae9b55]" name="Pet_Get" class="apiTests.PetTests"/>
+        <method signature="PetTests.Pet_Post()[pri:0, instance:apiTests.PetTests@48ae9b55]" name="Pet_Post" class="apiTests.PetTests"/>
+        <method signature="PetTests.Pet_Post_Image()[pri:0, instance:apiTests.PetTests@48ae9b55]" name="Pet_Post_Image" class="apiTests.PetTests"/>
+        <method signature="PetTests.Pet_Put()[pri:0, instance:apiTests.PetTests@48ae9b55]" name="Pet_Put" class="apiTests.PetTests"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-04-01T15:21:38 IST" name="Test" finished-at="2024-04-01T15:22:00 IST" duration-ms="21497">
+      <class name="apiTests.PetTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:apiTests.PetTests@48ae9b55]" started-at="2024-04-01T15:21:38 IST" name="setUp" finished-at="2024-04-01T15:21:38 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:apiTests.PetTests@48ae9b55]" started-at="2024-04-01T15:21:38 IST" name="setUpTest" finished-at="2024-04-01T15:21:39 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:apiTests.PetTests@48ae9b55]" started-at="2024-04-01T15:21:39 IST" name="setUp" finished-at="2024-04-01T15:21:39 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@44aa91e2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[private void apiTests.PetTests.Pet_Get()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Pet_Get()[pri:0, instance:apiTests.PetTests@48ae9b55]" started-at="2024-04-01T15:21:39 IST" name="Pet_Get" finished-at="2024-04-01T15:21:43 IST" duration-ms="4194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pet_Get -->
+        <test-method is-config="true" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:apiTests.PetTests@48ae9b55]" started-at="2024-04-01T15:21:43 IST" name="cleanUp" finished-at="2024-04-01T15:21:44 IST" duration-ms="1126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Pet_Get status=SUCCESS method=PetTests.Pet_Get()[pri:0, instance:apiTests.PetTests@48ae9b55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="Pet_Post()[pri:0, instance:apiTests.PetTests@48ae9b55]" started-at="2024-04-01T15:21:44 IST" name="Pet_Post" finished-at="2024-04-01T15:21:45 IST" duration-ms="1155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pet_Post -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:apiTests.PetTests@48ae9b55]" started-at="2024-04-01T15:21:44 IST" name="setUp" finished-at="2024-04-01T15:21:44 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@44aa91e2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[private void apiTests.PetTests.Pet_Post()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:apiTests.PetTests@48ae9b55]" started-at="2024-04-01T15:21:45 IST" name="cleanUp" finished-at="2024-04-01T15:21:47 IST" duration-ms="2294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Pet_Post status=SUCCESS method=PetTests.Pet_Post()[pri:0, instance:apiTests.PetTests@48ae9b55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:apiTests.PetTests@48ae9b55]" started-at="2024-04-01T15:21:47 IST" name="setUp" finished-at="2024-04-01T15:21:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@44aa91e2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[private void apiTests.PetTests.Pet_Post_Image() throws java.io.FileNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Pet_Post_Image()[pri:0, instance:apiTests.PetTests@48ae9b55]" started-at="2024-04-01T15:21:47 IST" name="Pet_Post_Image" finished-at="2024-04-01T15:21:50 IST" duration-ms="2998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pet_Post_Image -->
+        <test-method is-config="true" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:apiTests.PetTests@48ae9b55]" started-at="2024-04-01T15:21:50 IST" name="cleanUp" finished-at="2024-04-01T15:21:54 IST" duration-ms="3420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Pet_Post_Image status=SUCCESS method=PetTests.Pet_Post_Image()[pri:0, instance:apiTests.PetTests@48ae9b55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="Pet_Put()[pri:0, instance:apiTests.PetTests@48ae9b55]" started-at="2024-04-01T15:21:54 IST" name="Pet_Put" finished-at="2024-04-01T15:21:56 IST" duration-ms="2320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pet_Put -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:apiTests.PetTests@48ae9b55]" started-at="2024-04-01T15:21:54 IST" name="setUp" finished-at="2024-04-01T15:21:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@44aa91e2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[private void apiTests.PetTests.Pet_Put()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:apiTests.PetTests@48ae9b55]" started-at="2024-04-01T15:21:56 IST" name="cleanUp" finished-at="2024-04-01T15:22:00 IST" duration-ms="3452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Pet_Put status=SUCCESS method=PetTests.Pet_Put()[pri:0, instance:apiTests.PetTests@48ae9b55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:apiTests.PetTests@48ae9b55]" started-at="2024-04-01T15:22:00 IST" name="cleanUpTest" finished-at="2024-04-01T15:22:00 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpTest -->
+      </class> <!-- apiTests.PetTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
