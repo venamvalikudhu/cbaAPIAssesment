@@ -15,6 +15,7 @@ Hierarchy: Base -> Base test -> PetTest
 4. apihelper-> Facilitates for Test class execution
 5. frameworkBase-> Contains the HTTP call methods and establishes the Request/Response specs
 6. framework utils-> Additional customisation for Report, Retry, Config read. 
+7. apiModels -> Contains the Request and Response JSON Models
 
 # Customisations
 1. Dual testng files, each for Regression/Smoke execution
