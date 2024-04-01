@@ -1,14 +1,14 @@
 # cbaAPIAssesment
 
-#Quick Overview:
-Framework: Rest Assured + TestNG. 
-Language: Java
-Report: Extent
+# Quick Overview:
+* Framework: Rest Assured 5.4.0 + TestNG 7.9.0. 
+* Language: Java 8 
+* Report: Extent 5.1.1
 
-#Framework Structure:
+# Framework Structure:
 Hierarchy: Base -> Base test -> PetTest
 
-#Packages: 
+# Packages: 
 1. apiEndpoints-> Contains all Pet Endpoints
 2. apiEnums-> Contains all Multiple values
 3. apiConstants-> Contains constants used for test/Helper class
@@ -16,12 +16,12 @@ Hierarchy: Base -> Base test -> PetTest
 5. frameworkBase-> Contains the HTTP call methods and establishes the Request/Response specs
 6. framework utils-> Additional customisation for Report, Retry, Config read. 
 
-#Customisations
+# Customisations
 1. Dual testng files, each for Regression/Smoke execution
 2. Retry Listener to retry failed scenarios
 3. Reporting to integrate Assert + Extent report write in a single method for simplicity
 
-#TestRun
+# TestRun
 1. Trigger either "testng_Regression" or "testng_smoke" XML based on the need.
 2. When running the pom.xml please use the command "mvn test -Dsurefire.suiteXmlFile=<testngXMLName>"
 3. To Trigger from CI please use Jenkins
