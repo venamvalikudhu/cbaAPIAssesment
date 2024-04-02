@@ -15,12 +15,11 @@ import apiConstants.PetConstants;
 import apiEnums.PetStatus;
 import apiModels.PetDetails;
 import apiModels.PetJsonModel;
-import frameworkBase.BaseTest;
 import frameworkUtils.ConfigReader;
 import frameworkUtils.Utils;
 import io.restassured.response.Response;
 
-public class PetHelper extends BaseTest{
+public class PetHelper{
 	
 	public static PetJsonModel InputData() {
 		PetJsonModel petJsonModel = new PetJsonModel();

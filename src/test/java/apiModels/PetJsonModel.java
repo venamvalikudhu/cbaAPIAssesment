@@ -1,5 +1,4 @@
 package apiModels;
-
 import java.util.List;
 
 public class PetJsonModel {

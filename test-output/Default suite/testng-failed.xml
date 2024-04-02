@@ -5,9 +5,12 @@
     <classes>
       <class name="apiTests.PetTests">
         <methods>
-          <include name="Pet_Get"/>
           <include name="setUp"/>
+          <include name="Pet_Get_Status"/>
           <include name="cleanUp"/>
+          <include name="setUp"/>
+          <include name="setUpTest"/>
+          <include name="cleanUpTest"/>
         </methods>
       </class> <!-- apiTests.PetTests -->
     </classes>
