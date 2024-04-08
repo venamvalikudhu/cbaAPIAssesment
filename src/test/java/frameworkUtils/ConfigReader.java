@@ -12,7 +12,7 @@ public class ConfigReader {
 	
 	public static void loadProperties()
 	{
-		if(properties != null) {
+		if(properties == null) {
 		try {
 			BufferedReader reader = new BufferedReader(new FileReader(propertyFilePath));
 			properties = new Properties();

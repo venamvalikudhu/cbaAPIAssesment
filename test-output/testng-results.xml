@@ -1,60 +1,314 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="9" total="10" passed="0" failed="1" skipped="0">
+<testng-results retried="1" ignored="0" total="11" passed="6" failed="0" skipped="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-02T07:54:24 IST" name="Default suite" finished-at="2024-04-02T07:54:31 IST" duration-ms="7078">
+  <suite started-at="2024-04-08T12:43:26 IST" name="Suite" finished-at="2024-04-08T12:44:05 IST" duration-ms="38844">
     <groups>
       <group name="Regression">
-        <method signature="PetTests.Pet_Get_Status()[pri:0, instance:apiTests.PetTests@741a8937]" name="Pet_Get_Status" class="apiTests.PetTests"/>
+        <method signature="PetTests.Pet_Delete()[pri:0, instance:apiTests.PetTests@614ca7df]" name="Pet_Delete" class="apiTests.PetTests"/>
+        <method signature="PetTests.Pet_Delete_Error()[pri:0, instance:apiTests.PetTests@614ca7df]" name="Pet_Delete_Error" class="apiTests.PetTests"/>
+        <method signature="PetTests.Pet_Get()[pri:0, instance:apiTests.PetTests@614ca7df]" name="Pet_Get" class="apiTests.PetTests"/>
+        <method signature="PetTests.Pet_Get_Error()[pri:0, instance:apiTests.PetTests@614ca7df]" name="Pet_Get_Error" class="apiTests.PetTests"/>
+        <method signature="PetTests.Pet_Get_Status()[pri:0, instance:apiTests.PetTests@614ca7df]" name="Pet_Get_Status" class="apiTests.PetTests"/>
+        <method signature="PetTests.Pet_Post()[pri:0, instance:apiTests.PetTests@614ca7df]" name="Pet_Post" class="apiTests.PetTests"/>
+        <method signature="PetTests.Pet_Post_Error()[pri:0, instance:apiTests.PetTests@614ca7df]" name="Pet_Post_Error" class="apiTests.PetTests"/>
+        <method signature="PetTests.Pet_Post_Image()[pri:0, instance:apiTests.PetTests@614ca7df]" name="Pet_Post_Image" class="apiTests.PetTests"/>
+        <method signature="PetTests.Pet_Post_Update()[pri:0, instance:apiTests.PetTests@614ca7df]" name="Pet_Post_Update" class="apiTests.PetTests"/>
+        <method signature="PetTests.Pet_Put()[pri:0, instance:apiTests.PetTests@614ca7df]" name="Pet_Put" class="apiTests.PetTests"/>
       </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="PetTests.Pet_Get()[pri:0, instance:apiTests.PetTests@614ca7df]" name="Pet_Get" class="apiTests.PetTests"/>
+        <method signature="PetTests.Pet_Post()[pri:0, instance:apiTests.PetTests@614ca7df]" name="Pet_Post" class="apiTests.PetTests"/>
+        <method signature="PetTests.Pet_Post_Image()[pri:0, instance:apiTests.PetTests@614ca7df]" name="Pet_Post_Image" class="apiTests.PetTests"/>
+        <method signature="PetTests.Pet_Put()[pri:0, instance:apiTests.PetTests@614ca7df]" name="Pet_Put" class="apiTests.PetTests"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-04-02T07:54:24 IST" name="Default test" finished-at="2024-04-02T07:54:31 IST" duration-ms="7078">
+    <test started-at="2024-04-08T12:43:26 IST" name="Test" finished-at="2024-04-08T12:44:05 IST" duration-ms="38844">
       <class name="apiTests.PetTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:apiTests.PetTests@741a8937]" started-at="2024-04-02T07:54:24 IST" name="setUp" finished-at="2024-04-02T07:54:24 IST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:26 IST" name="setUp" finished-at="2024-04-08T12:43:26 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:apiTests.PetTests@741a8937]" started-at="2024-04-02T07:54:24 IST" name="setUpTest" finished-at="2024-04-02T07:54:25 IST" duration-ms="586" status="PASS">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:26 IST" name="setUpTest" finished-at="2024-04-08T12:43:26 IST" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:apiTests.PetTests@741a8937]" started-at="2024-04-02T07:54:25 IST" name="setUp" finished-at="2024-04-02T07:54:25 IST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:26 IST" name="setUp" finished-at="2024-04-08T12:43:26 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6cc64028]]>
+                <![CDATA[org.testng.TestRunner@27261190]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[private void apiTests.PetTests.Pet_Get_Status() throws com.fasterxml.jackson.databind.JsonMappingException,com.fasterxml.jackson.core.JsonProcessingException]]>
+                <![CDATA[private void apiTests.PetTests.Pet_Delete()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Pet_Get_Status()[pri:0, instance:apiTests.PetTests@741a8937]" started-at="2024-04-02T07:54:25 IST" name="Pet_Get_Status" finished-at="2024-04-02T07:54:31 IST" duration-ms="5647" status="FAIL">
-          <exception class="com.fasterxml.jackson.databind.exc.MismatchedInputException">
+        <test-method signature="Pet_Delete()[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:26 IST" name="Pet_Delete" finished-at="2024-04-08T12:43:31 IST" duration-ms="4859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pet_Delete -->
+        <test-method is-config="true" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:31 IST" name="cleanUp" finished-at="2024-04-08T12:43:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Pet_Delete status=SUCCESS method=PetTests.Pet_Delete()[pri:0, instance:apiTests.PetTests@614ca7df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:31 IST" name="setUp" finished-at="2024-04-08T12:43:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27261190]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[private void apiTests.PetTests.Pet_Delete_Error()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Pet_Delete_Error()[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:31 IST" name="Pet_Delete_Error" finished-at="2024-04-08T12:43:32 IST" duration-ms="1320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pet_Delete_Error -->
+        <test-method is-config="true" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:32 IST" name="cleanUp" finished-at="2024-04-08T12:43:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Pet_Delete_Error status=SUCCESS method=PetTests.Pet_Delete_Error()[pri:0, instance:apiTests.PetTests@614ca7df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:32 IST" name="setUp" finished-at="2024-04-08T12:43:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27261190]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[private void apiTests.PetTests.Pet_Get()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Pet_Get()[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:32 IST" name="Pet_Get" finished-at="2024-04-08T12:43:35 IST" duration-ms="2687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pet_Get -->
+        <test-method is-config="true" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:35 IST" name="cleanUp" finished-at="2024-04-08T12:43:36 IST" duration-ms="1411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Pet_Get status=SUCCESS method=PetTests.Pet_Get()[pri:0, instance:apiTests.PetTests@614ca7df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:36 IST" name="setUp" finished-at="2024-04-08T12:43:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27261190]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[private void apiTests.PetTests.Pet_Get_Error()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Pet_Get_Error()[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:36 IST" name="Pet_Get_Error" finished-at="2024-04-08T12:43:38 IST" duration-ms="1290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pet_Get_Error -->
+        <test-method is-config="true" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:38 IST" name="cleanUp" finished-at="2024-04-08T12:43:39 IST" duration-ms="1330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Pet_Get_Error status=SUCCESS method=PetTests.Pet_Get_Error()[pri:0, instance:apiTests.PetTests@614ca7df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="Pet_Get_Status()[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:39 IST" name="Pet_Get_Status" finished-at="2024-04-08T12:43:46 IST" duration-ms="7005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pet_Get_Status -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:39 IST" name="setUp" finished-at="2024-04-08T12:43:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27261190]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[private void apiTests.PetTests.Pet_Get_Status()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:46 IST" name="cleanUp" finished-at="2024-04-08T12:43:47 IST" duration-ms="1388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Pet_Get_Status status=SUCCESS method=PetTests.Pet_Get_Status()[pri:0, instance:apiTests.PetTests@614ca7df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:47 IST" name="setUp" finished-at="2024-04-08T12:43:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27261190]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[private void apiTests.PetTests.Pet_Post()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="Pet_Post()[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:47 IST" name="Pet_Post" finished-at="2024-04-08T12:43:49 IST" duration-ms="1541" status="SKIP">
+          <exception class="java.net.SocketTimeoutException">
             <message>
-              <![CDATA[Cannot deserialize value of type `apiModels.PetJSONModelList` from Array value (token `JsonToken.START_ARRAY`)
- at [Source: (String)"[{"id":1712022524383,"category":{"id":1,"name":"category1"},"name":"jaroWolfy","photoUrls":["url-1","url-2","url-3"],"tags":[{"id":1,"name":"tag-1"},{"id":2,"name":"tag-2"}],"status":"pending"},{"id":1712022552929,"category":{"id":1,"name":"category1"},"name":"jaroWolfy","photoUrls":["url-1","url-2","url-3"],"tags":[{"id":1,"name":"tag-1"},{"id":2,"name":"tag-2"}],"status":"pending"},{"id":1712022636556,"category":{"id":1,"name":"category1"},"name":"jaroWolfy","photoUrls":["url-1","url-2","url-3"[truncated 891 chars]; line: 1, column: 1]]]>
+              <![CDATA[Read timed out]]>
             </message>
             <full-stacktrace>
-              <![CDATA[com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `apiModels.PetJSONModelList` from Array value (token `JsonToken.START_ARRAY`)
- at [Source: (String)"[{"id":1712022524383,"category":{"id":1,"name":"category1"},"name":"jaroWolfy","photoUrls":["url-1","url-2","url-3"],"tags":[{"id":1,"name":"tag-1"},{"id":2,"name":"tag-2"}],"status":"pending"},{"id":1712022552929,"category":{"id":1,"name":"category1"},"name":"jaroWolfy","photoUrls":["url-1","url-2","url-3"],"tags":[{"id":1,"name":"tag-1"},{"id":2,"name":"tag-2"}],"status":"pending"},{"id":1712022636556,"category":{"id":1,"name":"category1"},"name":"jaroWolfy","photoUrls":["url-1","url-2","url-3"[truncated 891 chars]; line: 1, column: 1]
-at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
-at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1752)
-at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1526)
-at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1473)
-at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeFromArray(BeanDeserializer.java:656)
-at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:211)
-at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187)
-at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
-at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
-at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3772)
-at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3740)
-at apiTests.PetTests.Pet_Get_Status(PetTests.java:117)
+              <![CDATA[java.net.SocketTimeoutException: Read timed out
+at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283)
+at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309)
+at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+at java.base/java.net.Socket$SocketInputStream.read(Socket.java:976)
+at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:110)
+at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1498)
+at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1404)
+at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:441)
+at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:412)
+at org.apache.http.conn.ssl.SSLSocketFactory.createLayeredSocket(SSLSocketFactory.java:570)
+at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:554)
+at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:415)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+at io.restassured.internal.RestAssuredHttpBuilder.doRequest(RestAssuredHttpBuilder.java:141)
+at io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:349)
+at io.restassured.internal.http.HTTPBuilder$post$2.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1209)
+at io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:70)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:148)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:176)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
+at frameworkBase.BaseTest.Post(BaseTest.java:43)
+at apiTests.PetTests.Pet_Post(PetTests.java:150)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -85,26 +339,946 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- com.fasterxml.jackson.databind.exc.MismatchedInputException -->
+          </exception> <!-- java.net.SocketTimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Pet_Get_Status -->
-        <test-method is-config="true" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:apiTests.PetTests@741a8937]" started-at="2024-04-02T07:54:31 IST" name="cleanUp" finished-at="2024-04-02T07:54:31 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- Pet_Post -->
+        <test-method is-config="true" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:49 IST" name="cleanUp" finished-at="2024-04-08T12:43:50 IST" duration-ms="1354" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Pet_Get_Status status=FAILURE method=PetTests.Pet_Get_Status()[pri:0, instance:apiTests.PetTests@741a8937] output={null}]]]>
+                <![CDATA[[TestResult name=Pet_Post status=SKIP method=PetTests.Pet_Post()[pri:0, instance:apiTests.PetTests@614ca7df] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:apiTests.PetTests@741a8937]" started-at="2024-04-02T07:54:31 IST" name="cleanUpTest" finished-at="2024-04-02T07:54:31 IST" duration-ms="766" status="PASS">
+        <test-method signature="Pet_Post()[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:50 IST" name="Pet_Post" finished-at="2024-04-08T12:43:52 IST" duration-ms="1998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pet_Post -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:50 IST" name="setUp" finished-at="2024-04-08T12:43:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27261190]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[private void apiTests.PetTests.Pet_Post()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:52 IST" name="cleanUp" finished-at="2024-04-08T12:43:53 IST" duration-ms="1279" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Pet_Post status=SUCCESS method=PetTests.Pet_Post()[pri:0, instance:apiTests.PetTests@614ca7df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.net.SocketTimeoutException">
+            <message>
+              <![CDATA[Read timed out]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.SocketTimeoutException: Read timed out
+at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283)
+at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309)
+at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+at java.base/java.net.Socket$SocketInputStream.read(Socket.java:976)
+at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:110)
+at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1498)
+at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1404)
+at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:441)
+at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:412)
+at org.apache.http.conn.ssl.SSLSocketFactory.createLayeredSocket(SSLSocketFactory.java:570)
+at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:554)
+at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:415)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+at io.restassured.internal.RestAssuredHttpBuilder.doRequest(RestAssuredHttpBuilder.java:141)
+at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:496)
+at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:453)
+at io.restassured.internal.http.HTTPBuilder$request$3.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1480)
+at io.restassured.internal.RequestSpecificationImpl.this$2$sendHttpRequest(RequestSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1229)
+at io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:70)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:148)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor86.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor85.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.delete(RequestSpecificationImpl.groovy:184)
+at io.restassured.internal.RequestSpecificationImpl.delete(RequestSpecificationImpl.groovy)
+at frameworkBase.BaseTest.Delete(BaseTest.java:97)
+at apiTests.PetTests.cleanUp(PetTests.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.SocketTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:53 IST" name="setUp" finished-at="2024-04-08T12:43:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27261190]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[private void apiTests.PetTests.Pet_Post_Error()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Pet_Post_Error()[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:53 IST" name="Pet_Post_Error" finished-at="2024-04-08T12:43:53 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.SocketTimeoutException">
+            <message>
+              <![CDATA[Read timed out]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.SocketTimeoutException: Read timed out
+at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283)
+at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309)
+at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+at java.base/java.net.Socket$SocketInputStream.read(Socket.java:976)
+at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:110)
+at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1498)
+at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1404)
+at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:441)
+at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:412)
+at org.apache.http.conn.ssl.SSLSocketFactory.createLayeredSocket(SSLSocketFactory.java:570)
+at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:554)
+at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:415)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+at io.restassured.internal.RestAssuredHttpBuilder.doRequest(RestAssuredHttpBuilder.java:141)
+at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:496)
+at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:453)
+at io.restassured.internal.http.HTTPBuilder$request$3.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1480)
+at io.restassured.internal.RequestSpecificationImpl.this$2$sendHttpRequest(RequestSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1229)
+at io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:70)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:148)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor86.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor85.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.delete(RequestSpecificationImpl.groovy:184)
+at io.restassured.internal.RequestSpecificationImpl.delete(RequestSpecificationImpl.groovy)
+at frameworkBase.BaseTest.Delete(BaseTest.java:97)
+at apiTests.PetTests.cleanUp(PetTests.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.SocketTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pet_Post_Error -->
+        <test-method is-config="true" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:53 IST" name="cleanUp" finished-at="2024-04-08T12:43:56 IST" duration-ms="2692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=PetTests.Pet_Post_Error()[pri:0, instance:apiTests.PetTests@614ca7df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:56 IST" name="setUp" finished-at="2024-04-08T12:43:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27261190]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[private void apiTests.PetTests.Pet_Post_Image() throws java.io.FileNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Pet_Post_Image()[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:56 IST" name="Pet_Post_Image" finished-at="2024-04-08T12:43:56 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.SocketTimeoutException">
+            <message>
+              <![CDATA[Read timed out]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.SocketTimeoutException: Read timed out
+at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283)
+at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309)
+at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+at java.base/java.net.Socket$SocketInputStream.read(Socket.java:976)
+at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:110)
+at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1498)
+at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1404)
+at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:441)
+at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:412)
+at org.apache.http.conn.ssl.SSLSocketFactory.createLayeredSocket(SSLSocketFactory.java:570)
+at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:554)
+at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:415)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+at io.restassured.internal.RestAssuredHttpBuilder.doRequest(RestAssuredHttpBuilder.java:141)
+at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:496)
+at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:453)
+at io.restassured.internal.http.HTTPBuilder$request$3.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1480)
+at io.restassured.internal.RequestSpecificationImpl.this$2$sendHttpRequest(RequestSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1229)
+at io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:70)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:148)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor86.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor85.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.delete(RequestSpecificationImpl.groovy:184)
+at io.restassured.internal.RequestSpecificationImpl.delete(RequestSpecificationImpl.groovy)
+at frameworkBase.BaseTest.Delete(BaseTest.java:97)
+at apiTests.PetTests.cleanUp(PetTests.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.SocketTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pet_Post_Image -->
+        <test-method is-config="true" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:56 IST" name="cleanUp" finished-at="2024-04-08T12:43:59 IST" duration-ms="2695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=PetTests.Pet_Post_Image()[pri:0, instance:apiTests.PetTests@614ca7df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="Pet_Post_Update()[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:59 IST" name="Pet_Post_Update" finished-at="2024-04-08T12:43:59 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.SocketTimeoutException">
+            <message>
+              <![CDATA[Read timed out]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.SocketTimeoutException: Read timed out
+at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283)
+at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309)
+at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+at java.base/java.net.Socket$SocketInputStream.read(Socket.java:976)
+at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:110)
+at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1498)
+at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1404)
+at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:441)
+at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:412)
+at org.apache.http.conn.ssl.SSLSocketFactory.createLayeredSocket(SSLSocketFactory.java:570)
+at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:554)
+at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:415)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+at io.restassured.internal.RestAssuredHttpBuilder.doRequest(RestAssuredHttpBuilder.java:141)
+at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:496)
+at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:453)
+at io.restassured.internal.http.HTTPBuilder$request$3.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1480)
+at io.restassured.internal.RequestSpecificationImpl.this$2$sendHttpRequest(RequestSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1229)
+at io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:70)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:148)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor86.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor85.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.delete(RequestSpecificationImpl.groovy:184)
+at io.restassured.internal.RequestSpecificationImpl.delete(RequestSpecificationImpl.groovy)
+at frameworkBase.BaseTest.Delete(BaseTest.java:97)
+at apiTests.PetTests.cleanUp(PetTests.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.SocketTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pet_Post_Update -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:59 IST" name="setUp" finished-at="2024-04-08T12:43:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27261190]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[private void apiTests.PetTests.Pet_Post_Update()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:43:59 IST" name="cleanUp" finished-at="2024-04-08T12:44:02 IST" duration-ms="2694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=PetTests.Pet_Post_Update()[pri:0, instance:apiTests.PetTests@614ca7df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="Pet_Put()[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:44:02 IST" name="Pet_Put" finished-at="2024-04-08T12:44:02 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.SocketTimeoutException">
+            <message>
+              <![CDATA[Read timed out]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.SocketTimeoutException: Read timed out
+at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283)
+at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309)
+at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+at java.base/java.net.Socket$SocketInputStream.read(Socket.java:976)
+at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:110)
+at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1498)
+at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1404)
+at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:441)
+at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:412)
+at org.apache.http.conn.ssl.SSLSocketFactory.createLayeredSocket(SSLSocketFactory.java:570)
+at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:554)
+at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:415)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+at io.restassured.internal.RestAssuredHttpBuilder.doRequest(RestAssuredHttpBuilder.java:141)
+at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:496)
+at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:453)
+at io.restassured.internal.http.HTTPBuilder$request$3.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1480)
+at io.restassured.internal.RequestSpecificationImpl.this$2$sendHttpRequest(RequestSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1229)
+at io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:70)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:148)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor86.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor85.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.delete(RequestSpecificationImpl.groovy:184)
+at io.restassured.internal.RequestSpecificationImpl.delete(RequestSpecificationImpl.groovy)
+at frameworkBase.BaseTest.Delete(BaseTest.java:97)
+at apiTests.PetTests.cleanUp(PetTests.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.SocketTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pet_Put -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:44:02 IST" name="setUp" finished-at="2024-04-08T12:44:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27261190]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[private void apiTests.PetTests.Pet_Put()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:44:02 IST" name="cleanUp" finished-at="2024-04-08T12:44:04 IST" duration-ms="2685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=PetTests.Pet_Put()[pri:0, instance:apiTests.PetTests@614ca7df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:apiTests.PetTests@614ca7df]" started-at="2024-04-08T12:44:04 IST" name="cleanUpTest" finished-at="2024-04-08T12:44:05 IST" duration-ms="319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUpTest -->
       </class> <!-- apiTests.PetTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

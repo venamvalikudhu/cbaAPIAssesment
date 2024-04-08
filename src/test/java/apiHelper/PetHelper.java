@@ -55,12 +55,6 @@ public class PetHelper{
 		return dir;
 	}
 	
-	public static String getStatus() {
-		return Stream.of(PetStatus.values())
-                .map(Enum::name)
-                .collect(Collectors.joining(","));
-	}
-	
 	
 	public static void toTable(Response response, ExtentTest node) {
 		String[][] data = {

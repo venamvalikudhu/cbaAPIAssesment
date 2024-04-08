@@ -5,18 +5,16 @@
     <listener class-name="frameworkUtils.AnnotationTransformer"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
-    <groups>
-      <run>
-        <include name="Smoke"/>
-      </run>
-    </groups>
     <classes>
       <class name="apiTests.PetTests">
         <methods>
-          <include name="Pet_Get"/>
+          <include name="setUp"/>
+          <include name="Pet_Post_Update"/>
+          <include name="Pet_Post_Error"/>
           <include name="cleanUp"/>
           <include name="setUp"/>
           <include name="Pet_Post_Image"/>
+          <include name="setUpTest"/>
           <include name="cleanUpTest"/>
           <include name="Pet_Post"/>
           <include name="Pet_Put"/>

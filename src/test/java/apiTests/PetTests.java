@@ -111,7 +111,7 @@ public class PetTests extends BaseTest{
 			apiCallValidation(response, node);	
 		}
 		qp.clear();
-		qp.put(PetConstants.GET_QUERY_PARAM_KEY,PetHelper.getStatus());
+		qp.put(PetConstants.GET_QUERY_PARAM_KEY,getValuesAsList(PetStatus.class));
 		
 		node = test.createNode("GET call by Status as Query param");
 		response = Get(PetEndPoints.get,qp, ContentType.JSON);
