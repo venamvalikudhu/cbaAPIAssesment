@@ -8,7 +8,7 @@ public class Utils {
 	
 	public static String randomNameGenerator(String name) {
 		return name + randomNumberGenerator(Integer.parseInt(ConfigReader.getValue("framework_min_Value")),
-				Integer.parseInt(ConfigReader.getValue("framework_min_Value")));
+				Integer.parseInt(ConfigReader.getValue("framework_max_Value")));
 	}
 	
 }

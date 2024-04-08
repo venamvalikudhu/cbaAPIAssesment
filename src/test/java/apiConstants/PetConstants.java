@@ -10,8 +10,8 @@ public class PetConstants {
 	public static final String GET_QUERY_PARAM_KEY = "status"; 
 	public static final String POST_ERROR_MESSAGE = "no data";
 	public static final String[] POST_FORM_PARAM_KEY = {"name", "status"}; 
-	public static final int NEW_PET_MIN = 50000;
-	public static final int NEW_PET_MAX = 100000;
-	public static final String PET_NAME = "Test_Pet";
-	public static final String PET_DETAILS = "Test_Pet_Details";
+	public static final int NEW_PET_MIN = 5000;
+	public static final int NEW_PET_MAX = 10000;
+	public static final String PET_NAME = "Test_Pet_";
+	public static final String PET_DETAILS = "Test_Pet_Details_";
 }

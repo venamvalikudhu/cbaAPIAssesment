@@ -30,7 +30,7 @@ import java.util.Map;
 public class PetTests extends BaseTest{
 
 	private ExtentTest node;
-	private List<Integer> cleanUp =  new ArrayList<Integer>();
+	private List<Integer> cleanUp;
 	Map<String, String> fp = new HashMap<String, String>();
 	Map<String, Object> qp = new HashMap<String, Object>();
 	
@@ -38,6 +38,7 @@ public class PetTests extends BaseTest{
 	@BeforeMethod(alwaysRun=true)
 	private void setUp(ITestContext testContext, Method m) {
 		test = report.createTest(m.getName());
+		cleanUp =  new ArrayList<Integer>();
 		}
 
 	// Clean Up

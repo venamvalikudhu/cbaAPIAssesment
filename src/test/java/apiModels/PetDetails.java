@@ -4,7 +4,7 @@ public class PetDetails {
 	 	int Id;
 	 	String Name;
 	 
-	 	public double getId() {
+	 	public int getId() {
 			return Id;
 		}
 		public PetDetails setId(int id) {
