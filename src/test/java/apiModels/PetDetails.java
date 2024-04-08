@@ -7,14 +7,16 @@ public class PetDetails {
 	 	public double getId() {
 			return Id;
 		}
-		public void setId(int id) {
+		public PetDetails setId(int id) {
 			Id = id;
+			return this;
 		}
 		
 		public String getName() {
 			return Name;
 		}
-		public void setName(String name) {
+		public PetDetails setName(String name) {
 			Name = name;
+			return this;
 		}
 }

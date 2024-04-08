@@ -23,23 +23,23 @@ public class PetHelper{
 	
 	public static PetJsonModel InputData() {
 		PetJsonModel petJsonModel = new PetJsonModel();
-		petJsonModel.setId(Utils.randomNumberGenerator(PetConstants.NEW_PET_MIN,PetConstants.NEW_PET_MAX));
-		petJsonModel.setName(Utils.randomNameGenerator(PetConstants.PET_NAME));
-
-		PetDetails details = new PetDetails();
-		details.setId(Utils.randomNumberGenerator(PetConstants.NEW_PET_MIN,PetConstants.NEW_PET_MAX));
-		details.setName(Utils.randomNameGenerator(PetConstants.PET_DETAILS));
-		petJsonModel.setcategory(details);
 		
+		PetDetails details = new PetDetails();
+		details.setId(Utils.randomNumberGenerator(PetConstants.NEW_PET_MIN,PetConstants.NEW_PET_MAX))
+			   .setName(Utils.randomNameGenerator(PetConstants.PET_DETAILS));
+
 		List<String> urls = new ArrayList<String>();
 		urls.add(Utils.randomNameGenerator(PetConstants.PET_DETAILS));
-		petJsonModel.setPhotoUrls(urls);
-
-		List<PetDetails> Tags = new ArrayList<PetDetails>();
-		Tags.add(details);
-		petJsonModel.setTags(Tags);
 		
-		petJsonModel.setStatus(PetStatus.available.text);
+		List<PetDetails> tags = new ArrayList<PetDetails>();
+		tags.add(details);
+
+		petJsonModel.setId(Utils.randomNumberGenerator(PetConstants.NEW_PET_MIN,PetConstants.NEW_PET_MAX))
+					.setName(Utils.randomNameGenerator(PetConstants.PET_NAME))
+					.setcategory(details)
+					.setPhotoUrls(urls)
+					.setTags(tags)
+					.setStatus(PetStatus.available.text);
 		
 		return petJsonModel;
 	}

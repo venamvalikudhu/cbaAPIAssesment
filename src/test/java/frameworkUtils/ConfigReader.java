@@ -12,19 +12,22 @@ public class ConfigReader {
 	
 	public static void loadProperties()
 	{
-	try {
-		BufferedReader reader = new BufferedReader(new FileReader(propertyFilePath));
-		properties = new Properties();
+		if(properties != null) {
 		try {
-			properties.load(reader);
-			reader.close();
-		} catch (IOException e) {
+			BufferedReader reader = new BufferedReader(new FileReader(propertyFilePath));
+			properties = new Properties();
+				try {
+				properties.load(reader);
+				reader.close();
+				} catch (IOException e) {
+				e.printStackTrace();
+				}
+			}
+		catch (FileNotFoundException e) {
 			e.printStackTrace();
+			throw new RuntimeException("Configuration.properties not found at " + propertyFilePath);
+			}
 		}
-	} catch (FileNotFoundException e) {
-		e.printStackTrace();
-		throw new RuntimeException("Configuration.properties not found at " + propertyFilePath);
-	}
 	}
 	
 	public static String getValue(String Key){

@@ -8,20 +8,23 @@ public class PetErrorDetails {
 		public int getCode() {
 			return Code;
 		}
-		public void setCode(int code) {
+		public PetErrorDetails setCode(int code) {
 			Code = code;
+			return this;
 		}
 		public String getType() {
 			return Type;
 		}
-		public void setType(String type) {
+		public PetErrorDetails setType(String type) {
 			Type = type;
+			return this;
 		}
 		public String getMessage() {
 			return Message;
 		}
-		public void setMessage(String message) {
+		public PetErrorDetails setMessage(String message) {
 			Message = message;
+			return this;
 		}
 	 
 	 

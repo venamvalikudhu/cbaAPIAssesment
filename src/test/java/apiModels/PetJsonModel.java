@@ -13,38 +13,44 @@ public class PetJsonModel {
 	public int getId() {
 		return Id;
 	}
-	public void setId(int id) {
+	public PetJsonModel setId(int id) {
 		this.Id = id;
+		return this;
 	}
 	public PetDetails getcategory() {
 		return category;
 	}
-	public void setcategory(PetDetails petDetails) {
+	public PetJsonModel setcategory(PetDetails petDetails) {
 		this.category = petDetails;
+		return this;
 	}
 	public String getName() {
 		return Name;
 	}
-	public void setName(String name) {
+	public PetJsonModel setName(String name) {
 		Name = name;
+		return this;
 	}
 	public List<String> getPhotoUrls() {
 		return PhotoUrls;
 	}
-	public void setPhotoUrls(List<String> photoUrls) {
+	public PetJsonModel setPhotoUrls(List<String> photoUrls) {
 		PhotoUrls = photoUrls;
+		return this;
 	}
 	public List<PetDetails> getTags() {
 		return Tags;
 	}
-	public void setTags(List<PetDetails> tags) {
+	public PetJsonModel setTags(List<PetDetails> tags) {
 		Tags = tags;
+		return this;
 	}
 	public String getStatus() {
 		return Status;
 	}
-	public void setStatus(String status) {
+	public PetJsonModel setStatus(String status) {
 		Status = status;
+		return this;
 	}
 
 }
