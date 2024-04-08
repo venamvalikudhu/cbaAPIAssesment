@@ -17,6 +17,7 @@ import apiModels.PetErrorDetails;
 import apiModels.PetJsonModel;
 import frameworkBase.BaseTest;
 import frameworkUtils.Reporting;
+import frameworkUtils.Utils;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
@@ -112,7 +113,7 @@ public class PetTests extends BaseTest{
 			apiCallValidation(response, node);	
 		}
 		qp.clear();
-		qp.put(PetConstants.GET_QUERY_PARAM_KEY,getValuesAsList(PetStatus.class));
+		qp.put(PetConstants.GET_QUERY_PARAM_KEY,Utils.getValuesAsList(PetStatus.class));
 		
 		node = test.createNode("GET call by Status as Query param");
 		response = Get(PetEndPoints.get,qp, ContentType.JSON);

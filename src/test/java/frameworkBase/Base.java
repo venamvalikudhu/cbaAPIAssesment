@@ -1,8 +1,5 @@
 package frameworkBase;
 
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
 import frameworkUtils.ConfigReader;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -65,11 +62,5 @@ public class Base {
                 log(LogDetail.ALL).
                 build();
     }
-	
-	public static <T extends Enum<T>> String getValuesAsList(Class<T> aEnum) {
-		return Stream.of(aEnum.getEnumConstants())
-                .map(Enum::name)
-                .collect(Collectors.joining(","));
-	}
 
 }

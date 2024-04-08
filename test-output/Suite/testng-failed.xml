@@ -8,16 +8,21 @@
     <classes>
       <class name="apiTests.PetTests">
         <methods>
+          <include name="Pet_Delete"/>
           <include name="setUp"/>
-          <include name="Pet_Post_Update"/>
-          <include name="Pet_Post_Error"/>
+          <include name="Pet_Get_Status"/>
+          <include name="Pet_Get_Error"/>
+          <include name="Pet_Delete_Error"/>
           <include name="cleanUp"/>
-          <include name="setUp"/>
           <include name="Pet_Post_Image"/>
           <include name="setUpTest"/>
+          <include name="Pet_Put"/>
+          <include name="Pet_Get"/>
+          <include name="Pet_Post_Update"/>
+          <include name="Pet_Post_Error"/>
+          <include name="setUp"/>
           <include name="cleanUpTest"/>
           <include name="Pet_Post"/>
-          <include name="Pet_Put"/>
         </methods>
       </class> <!-- apiTests.PetTests -->
     </classes>
